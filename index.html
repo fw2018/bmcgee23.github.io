@@ -1,31 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" class="nojs">
+<html lang="en" class"=nojs">
 <head>
-  <title>Lab 3</title>
+  <title>Project1</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-  <link rel="stylesheet" media="screen" href="screen.css" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
 <main id="content">
   <form method="get" action="#null">
-    <h1> Sweepstakes Entry </h1>
-    <p> Fill out this form to be entered for a Sweepstakes! </p>
+    <h1> Get to Know Your Neighborhood through Photography! </h1>
+    <p>
+      Sign up here to discover and explore your neighborhood through a different lens
+    </p>
     <ol>
-      <li>
-        <label for="email"> Email: </label>
-        <input type="email" name="email" id="email" placeholder="what@ever.com" />
+      <li id="input-email">
+        <label for="email"> Email </label>
+        <input type="email" name="email" id="email" placeholder="abc@def.com" />
       </li>
-      <li>
-        <label> Number: </label>
-        <input type="phone" name="number" placeholder="111-222-3333" />
+      <li id="name-first">
+        <label for="name"> First Name </label>
+        <input type="first" name="first" id="first" placeholder="First" />
       </li>
-      <li>
-        <label> DOB: </label>
-        <input type="date" name="DOB" />
-      </li>
-      <li>
-        <input type="submit" name="submit" id="submit" value="Enter Here" />
+      <li id="name-last">
+        <label for="name"> Last Name </label>
+        <input type="last" name="last" id="last" placeholder="Last" />
+      </li> 
+      <li id="input-submit">
+        <input type="submit" name="submit" id="submit" value="Submit!" />
       </li>
     </ol>
   </form>
